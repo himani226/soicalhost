@@ -5,11 +5,12 @@ Database: PostgreSQL 
 
 Steps to be followed:
 
-1. Download the files from github
-2. Make database in PostgreSQL with the name of socialhost
-3. run python manage.py makemigrations
-4. run python manage.py migrate
-5. run python manage.py runserver
+1. Install the requirement.txt file
+2. Download the files from github
+3. Make database in PostgreSQL with the name of socialhost
+4. run python manage.py makemigrations
+5. run python manage.py migrate
+6. run python manage.py runserver
 
 
 Test Case 1:
