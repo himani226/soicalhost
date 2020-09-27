@@ -26,3 +26,13 @@ Test Case 1:
 11. Delete post at localhost/api/post_delete/
 
 
+Test case example:
+1. Enter username,email,password,name,gender,age,profile_pic as a registration field at register api.
+2. Using username or email and password login into the socialhost using login api. The token will generate and copy that token for authentication
+3. Logout from socialhost using token at logout api.
+4. Create the tag using tag_create api and also add authenticated token.
+5. View the tag list using token at tags_list api.
+
+Note:- 1. Use token authentication for all the processes.
+	 2. Copy the token while login.
+
